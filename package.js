@@ -1,7 +1,7 @@
 Package.describe({
-  name: 'urbanetic:bismuth-schema-utility',
+  name: 'crc4si:bismuth-schema-utility',
   summary: 'Utilities for schemas and collections in Bismuth.',
-  git: 'https://github.com/urbanetic/bismuth-schema-utility.git',
+  git: 'https://github.com/crc-si/bismuth-schema-utility.git',
   version: '0.3.0'
 });
 
@@ -16,7 +16,7 @@ Package.on_use(function(api) {
     'urbanetic:utility@1.2.0'
   ], ['client', 'server']);
   api.use([
-    'urbanetic:atlas@0.8.2'
+    'crc4si:atlas@0.8.2'
   ], ['client', 'server'], {weak: true});
   api.addFiles([
     'src/ParamUtils.coffee',
